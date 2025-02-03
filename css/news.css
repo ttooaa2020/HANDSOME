@@ -1,13 +1,10 @@
 @charset "utf-8";
 
 .event-list {
-  padding-top: 8.4rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 11.1rem 0;
-
-  padding-top: 5.5263%;
 }
 
 .event-list li {

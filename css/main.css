@@ -5,6 +5,7 @@
   font-weight: 800;
   color: var(--main-color3);
   text-align: center;
+  padding-bottom: 5rem;
 
   font-size: clamp(2.5rem, 2.0833vw, 4rem);
 }

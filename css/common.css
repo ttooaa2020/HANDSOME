@@ -197,7 +197,7 @@ header.hide {
   background: url(../img/language-icon.svg) no-repeat 100% / contain;
 } */
 
-.more-btn a {
+.more-btn {
   display: none;
   width: 3.2rem;
   height: 0.7rem;
@@ -378,7 +378,7 @@ address {
 /* e. footer */
 
 /* 반응형00000000000000000000000000000000000000000000000000000000000000000000000000 */
-@media (max-width: 860px) {
+@media (max-width: 1040px) {
   .inner {
     width: 90%;
   }
@@ -388,7 +388,7 @@ address {
     display: none;
   }
 
-  .more-btn a {
+  .more-btn {
     display: block;
   }
 

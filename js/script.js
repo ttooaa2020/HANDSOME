@@ -1,8 +1,11 @@
 $(function () {
   const $window = $(window);
   const $header = $("header");
+  const $visual = $(".visual, .main-visual");
+  const $topBtn = $(".top-btn");
   const $menu = $(".language");
   const $submenu = $(".language-list");
+
   const duration = 300;
 
   // 헤더에 마우스 오버시 언어 메뉴 표시------------------------------------------------------------
@@ -26,11 +29,8 @@ $(function () {
   // 헤더에 마우스 오버시 언어 메뉴 표시----------------------------------------------------------------
 
   // 헤더, 탑버튼이 비주얼을 벗어 나갈때----------------------------------------------------------
-  const $visual = $(".visual");
-  const $topBtn = $(".top-btn");
-
   $window.on("scroll", function () {
-    const visualBottom = $visual.offset().top + $visual.outerHeight();
+    const visualBottom = $visual.offset().top + $visual.outerHeight() - 200;
     const scrollTop = $window.scrollTop();
 
     if (scrollTop > visualBottom) {
